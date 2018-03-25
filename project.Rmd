@@ -1,5 +1,6 @@
 ---
 title: "Rees Model for Sulfate Reduction"
+author: "Katie Rempfert"
 date: "`r format(Sys.Date(), '%d %b %Y')`"
 output:
   html_document: 
@@ -15,7 +16,6 @@ editor_options:
 ```{r "setup", warning=FALSE, message=FALSE}
 library(tidyverse)
 library(plotly)
-#knitr::opts_chunk$set(eval = FALSE)
 ```
 
 ![](Rees_Model.png)
