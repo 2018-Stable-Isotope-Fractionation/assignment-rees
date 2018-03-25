@@ -18,7 +18,9 @@ library(tidyverse)
 library(plotly)
 ```
 
-![](Rees_Model.png)
+```{r, out.width = "100%", echo=FALSE, eval=TRUE}
+knitr::include_graphics("Rees_Model.png") 
+```
 
 ##Example 1: Rees Model with varying reversibility 
 
